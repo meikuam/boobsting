@@ -11,10 +11,15 @@ dependencies = [
     "catboost>=1.2.10",
     "dotenv>=0.9.9",
     "jupyterlab>=4.6.3",
+    "kagglehub>=1.0.2",
+    "lightgbm>=4.7.0",
     "matplotlib>=3.11.1",
     "nltk>=3.10.3",
     "pandas>=3.0.5",
+    "polars>=1.43.2",
+    "scikit-learn>=1.9.0",
     "tqdm>=4.70.0",
+    "xgboost>=3.4.0",
 ]
 
 [project.scripts]
