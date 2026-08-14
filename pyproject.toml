@@ -1,0 +1,25 @@
+[project]
+name = "boobsting"
+version = "0.1.0"
+description = "Repo with training of boosting / bagging and so one algorithms"
+readme = "README.md"
+authors = [
+    { name = "Beresnev Aleksei", email = "meikuam@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "catboost>=1.2.10",
+    "dotenv>=0.9.9",
+    "jupyterlab>=4.6.3",
+    "matplotlib>=3.11.1",
+    "nltk>=3.10.3",
+    "pandas>=3.0.5",
+    "tqdm>=4.70.0",
+]
+
+[project.scripts]
+boobsting = "boobsting:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
