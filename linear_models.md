@@ -75,7 +75,7 @@ $$\hat{\mathbf{p}} = \sigma(z)$$
 3. **Backward (градиенты по параметрам)**:
    $$
    \frac{\partial L}{\partial \mathbf{w}} = \frac{1}{n} \mathbf{X}^\top (\hat{\mathbf{p}} - \mathbf{y}), \quad
-   \frac{\partial L}{\partial b} = \frac{1}{n} \sum_{i=1}^{n} (\hat{p}_i - y_i
+   \frac{\partial L}{\partial b} = \frac{1}{n} \sum_{i=1}^{n} (\hat{p}_i - y_i)
    $$
 
 4. **Обновление**:  
